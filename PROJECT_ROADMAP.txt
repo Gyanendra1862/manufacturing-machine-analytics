@@ -1,0 +1,65 @@
+MANUFACTURING MACHINE PERFORMANCE & PREDICTIVE MAINTENANCE ANALYTICS
+
+Goal:
+Identify the machines, failure modes and operating conditions driving downtime,
+quality problems and financial loss, then recommend maintenance priorities.
+
+FILES
+- machine_operations_15000.csv: 15,000 records, 30 columns
+- machine_master.csv: 30-machine reference table
+
+ROADMAP
+1. Data understanding: profile types, missing values, duplicates, outliers and business rules.
+2. SQL: machine/failure/maintenance summaries, rankings, OEE and Pareto analysis.
+3. Python: cleaning, EDA, trends, correlations, failure-vs-normal analysis and optional classification.
+4. Power BI: Executive Overview; Machine Performance; Downtime & Failure; Maintenance; Financial Impact.
+5. Business recommendations: maintenance priorities, dominant failure modes, setup-loss reduction and sensor monitoring.
+
+CORE KPIs
+OEE, Availability %, Performance %, Quality %, Production, Good Units, Defect Rate,
+Downtime Hours, Failure Rate, Maintenance Cost, Downtime Loss, Scrap Cost, Total Loss,
+Energy per Good Unit.
+
+15 SQL QUESTIONS
+1. Total production and revenue by month?
+2. Top 10 machines by downtime?
+3. Top 10 machines by total financial loss?
+4. Which failure type is most frequent?
+5. Downtime by failure reason?
+6. Monthly OEE trend?
+7. Machine-wise defect rate?
+8. Machines above average downtime and loss?
+9. Top machines contributing most of total loss?
+10. Average temperature/vibration during failure vs non-failure?
+11. Maintenance cost by machine type?
+12. Energy per good unit by machine type?
+13. Which machines have repeated failures?
+14. Relationship between downtime and production loss?
+15. Which machines deserve highest maintenance priority?
+
+PYTHON TASKS
+1. Data profiling and missing-value treatment.
+2. Univariate/bivariate EDA.
+3. Monthly trend analysis.
+4. Failure-risk feature exploration.
+5. Pareto analysis.
+6. Outlier detection.
+7. Optional Logistic Regression/Random Forest failure model.
+8. Feature importance + business interpretation.
+
+POWER BI PAGES
+1. Executive Overview: OEE, production, downtime, defects, maintenance cost, loss.
+2. Machine Performance: machine ranking, OEE, utilization, defects.
+3. Downtime & Failure: failure types, Pareto, trends.
+4. Maintenance: failure history, maintenance hours/cost, machine risk.
+5. Financial Impact: downtime loss, scrap cost, total loss.
+
+INTERVIEW STORY
+Problem -> data cleaning -> SQL -> Python EDA -> Power BI -> prioritization ->
+quantified business impact -> recommendations.
+
+RESUME BULLET
+Analyzed 15K+ manufacturing machine records using SQL and Python to identify
+downtime, failure and quality drivers; built a Power BI dashboard tracking OEE,
+machine performance and financial loss, and prioritized maintenance using quantified
+production and cost impact.

@@ -1,0 +1,31 @@
+machine_id,machine_type,installation_year,rated_capacity_units_hr,maintenance_team
+M-001,Grinding,2016,70,Team C
+M-002,Press,2015,52,Team D
+M-003,CNC Lathe,2011,52,Team A
+M-004,Injection Molding,2024,70,Team A
+M-005,CNC Lathe,2015,52,Team A
+M-006,CNC Mill,2022,70,Team C
+M-007,CNC Lathe,2018,60,Team B
+M-008,CNC Lathe,2016,70,Team B
+M-009,CNC Lathe,2011,60,Team D
+M-010,CNC Mill,2024,45,Team C
+M-011,Injection Molding,2019,60,Team C
+M-012,Press,2014,70,Team C
+M-013,CNC Lathe,2011,60,Team D
+M-014,Injection Molding,2023,45,Team B
+M-015,Grinding,2020,60,Team B
+M-016,Press,2011,45,Team A
+M-017,Grinding,2018,52,Team C
+M-018,Grinding,2011,45,Team C
+M-019,Injection Molding,2018,45,Team A
+M-020,CNC Lathe,2015,52,Team C
+M-021,Press,2018,52,Team B
+M-022,CNC Mill,2013,45,Team C
+M-023,CNC Mill,2021,45,Team D
+M-024,CNC Lathe,2013,60,Team C
+M-025,Grinding,2019,45,Team A
+M-026,Injection Molding,2014,70,Team A
+M-027,Injection Molding,2015,60,Team A
+M-028,Injection Molding,2019,45,Team C
+M-029,Injection Molding,2018,52,Team A
+M-030,CNC Mill,2016,70,Team B
